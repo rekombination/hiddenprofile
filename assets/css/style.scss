@@ -4,11 +4,17 @@
 @import "{{ site.theme }}";
 
 .page-header {
+    height: 100%;
     color: #fff;
     text-align: center;
     background-color: #a7abc7;
 /*    background-image: linear-gradient(120deg, #697888, #8196b5);*/
     background-image: url("../images/bg.jpg") ;
+    background-repeat: repeat,	no-repeat,	no-repeat;
+    background-size: 100px 100px,	cover,	cover;
+    background-position: top left,	center center,	bottom center;
+    background-attachment: fixed,	fixed,	fixed;
+}
 
 }
 
